@@ -1,0 +1,86 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #dfd9a7;
+}
+.header {
+  background-color: #425154;
+  color: white;
+  padding-top: 20px;
+  padding-left: 20px; /* Padding on the left side */
+  padding-right: 30px; /* Padding on the right side */
+  padding-bottom: 20px;
+  text-align: center;
+  
+}
+.github {
+    display: inline-block;
+  }
+  
+  .main-content {
+    display: flex; /* Use flexbox to arrange sidebar and right-column */
+  }
+  
+  .sidebar {
+    background-color: #343131;
+    padding: 300px 50px;
+    color: white;
+    border-radius: 15px;
+    flex: 1; /* Make sidebar take up remaining space after right-column */
+    margin:50px 30px 100px 30px;
+    text-align: center;
+  }
+  
+  .right-column {
+    width: 70%; /* Set width for right column */
+    background-color: #cdd4ba;
+    padding: 20px;
+    border-radius: 15px;
+    margin:50px 70px 90px 70px;
+  }
+  
+  .search-bar-container {
+    
+    margin-top: 30px;
+    margin-bottom: 70px; /* Add spacing between elements */
+  }
+  
+  .search-bar {
+    padding: 10px 20px;
+    color:white;
+    background-color: #343131;
+    border: 1px solid #ddd;
+    border-radius: 15px;
+    width: 100%; /* Make search bar full width */
+  }
+  
+  .options {
+    display: flex;
+    justify-content: space-between; /* Horizontally space out options */
+    margin-bottom: 15px; /* Add spacing between elements */
+  }
+  
+  .option {
+    padding: 80px 20px;
+    background-color: #343131;
+    color:white;
+    border-radius: 15px;
+    flex: 1; /* Make each option take up equal space */
+    text-align: center;
+    margin-right: 10px;
+  }
+  
+  .info-bar {
+    margin-top: 120px;
+    background-color: #343131;
+    color:white;
+    padding: 30px 10px;
+    border-radius: 15px;
+    text-align: center;
+  }
+  
+  .icon {
+    position: absolute;
+    left: 0;
+    margin-left: 15px;
+  }
+  
